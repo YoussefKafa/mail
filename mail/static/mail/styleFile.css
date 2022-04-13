@@ -1,0 +1,21 @@
+textarea {
+    min-height: 400px;
+}
+
+body {
+    background-color: rgb(31, 229, 255);
+    background-image: url("mail_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.email {
+    display: flex;
+    border: 1px solid rgb(24, 1, 1);
+    background-color: rgb(248, 236, 246);
+    padding:10px;
+    margin: 5px;
+}
+.email > * {
+    flex: 1 2;
+}
