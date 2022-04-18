@@ -12,10 +12,19 @@ body {
 .email {
     display: flex;
     border: 1px solid rgb(24, 1, 1);
-    background-color: rgb(248, 236, 246);
+    background-color: gray;
+    padding:10px;
+    margin: 5px;
+}
+.emailViewBorder{
+    border : 1px solid rgb(148, 148, 148);
     padding:10px;
     margin: 5px;
 }
 .email > * {
     flex: 1 2;
+}
+
+.seen {
+    background-color:white;
 }

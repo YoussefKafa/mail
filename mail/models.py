@@ -15,7 +15,6 @@ class Email(models.Model):
     timestamp = models.DateTimeField(auto_now_add=True)
     read = models.BooleanField(default=False)
     archived = models.BooleanField(default=False)
-
     def serialize(self):
         return {
             "id": self.id,
