@@ -28,3 +28,18 @@ body {
 .seen {
     background-color:white;
 }
+
+.btn-sm, .btn-email{
+    background-color:#7a0991;
+    color: rgb(247, 1, 226);
+    border:none; 
+    border-radius:10px; 
+    padding:15px;
+    min-height:30px; 
+    min-width: 120px;
+}
+
+.btn-sm, .btn-email :hover{
+    background-color:#6e0c61;
+    transition: 0.7s;
+}
