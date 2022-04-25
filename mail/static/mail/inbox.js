@@ -36,7 +36,7 @@ function load_mailbox(mailbox) {
               <div><b>From:</b> ${emails[i].sender}</div>
               <div><b>Date:</b> ${emails[i].timestamp}</div>
           `;
-          if (!emails[i].read){
+          if (emails[i].read){
               email.classList.add('seen');
           }
         email.classList.add('email');
